@@ -1,5 +1,4 @@
 import { NextFunction, Request, Response } from "express";
-import { User } from "../models/User";
 import JWT from 'jsonwebtoken'
 import dotenv from 'dotenv'
 
