@@ -6,7 +6,7 @@ describe('Testing user service', () => {
   const password = '1234'
 
   beforeAll(async () => {
-    await User.sync({ force: true }).catch(error => console.log('erro de sincronização', error))
+    await User.sync({ force: true })
   })
 
   it('should create a new user', async () => {
